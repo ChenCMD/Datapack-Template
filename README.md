@@ -1,4 +1,4 @@
-# General purpose Data-pack template
+# 汎用データパックテンプレート
 1. [Use this template](https://github.com/ChenCMD/Datapack-Template/generate)をクリックする
 2. 必要に応じて[LICENSE](LICENSE), [README.md](README.md)を変更します
 
