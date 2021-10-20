@@ -19,12 +19,12 @@ function core:define_gamerule
 
 
 #> Datapackの順序の明示的設定
-# 0: TheSkyBlock
+# 0: Main
 # 1: ScoreToHealth
 # 2: OhMyDat
 datapack disable "OhMyDat"
 datapack disable "ScoreToHealth"
-datapack enable "ScoreToHealth" after "TheSkyBlock"
+datapack enable "ScoreToHealth" after "Main"
 datapack enable "OhMyDat" after "ScoreToHealth"
 
 
