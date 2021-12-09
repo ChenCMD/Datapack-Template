@@ -1,4 +1,4 @@
-#> api:score_to_health_wrapper/fluctuation
+#> api:concurrent_health_manager/fluctuation
 #
 # プレイヤーのHealthを増減します。
 #

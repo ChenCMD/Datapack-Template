@@ -8,7 +8,7 @@
     # Player
         execute if entity @s[type=player] run scoreboard players operation $Fluctuation Lib = $Damage Temporary
         execute if entity @s[type=player] run scoreboard players operation $Fluctuation Lib /= $-100 Const
-        execute if entity @s[type=player] run function api:score_to_health_wrapper/fluctuation
+        execute if entity @s[type=player] run function api:concurrent_health_manager/fluctuation
     # Mob
         execute if entity @s[type=!player] run function api:damage/core/non-player-process
 # 演出

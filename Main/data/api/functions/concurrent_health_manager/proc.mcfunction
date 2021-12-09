@@ -1,4 +1,4 @@
-#> api:score_to_health_wrapper/proc
+#> api:concurrent_health_manager/proc
 #
 # そのtick内のHP処理をまとめて処理します。
 #

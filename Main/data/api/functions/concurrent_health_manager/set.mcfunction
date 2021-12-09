@@ -1,4 +1,4 @@
-#> api:score_to_health_wrapper/set
+#> api:concurrent_health_manager/set
 #
 # プレイヤーのHPをその値に設定します。
 #

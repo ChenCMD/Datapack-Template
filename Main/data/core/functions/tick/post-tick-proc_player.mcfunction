@@ -5,7 +5,7 @@
 # @within function core:tick/
 
 # プレイヤーの体力の変更Queueの消化
-    execute if entity @s[predicate=api:has_health_modify_score] run function api:score_to_health_wrapper/proc
+    execute if entity @s[predicate=api:has_health_modify_score] run function api:concurrent_health_manager/proc
 
 # リセット
     scoreboard players reset @s[scores={Sneak=1..},predicate=!lib:is_sneaking] Sneak

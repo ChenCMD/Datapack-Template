@@ -13,4 +13,4 @@
 # 負数の場合の処理
     execute if score $Fluctuation Lib matches ..-1 run scoreboard players set $Fluctuation Lib 0
 # Healthを持つEntityであれば実行
-    function api:score_to_health_wrapper/fluctuation
+    function api:concurrent_health_manager/fluctuation

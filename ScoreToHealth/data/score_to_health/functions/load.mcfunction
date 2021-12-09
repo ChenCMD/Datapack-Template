@@ -15,7 +15,7 @@
 #> ObjectDeclare
 # @within *
 #   score_to_health:**
-#   api:score_to_health_wrapper/**
+#   api:concurrent_health_manager/**
 #   api:has_health_modify_score
     scoreboard objectives add ScoreToHealth dummy {"text":"プレイヤーをこの体力にする(*0.01HP)"}
 
