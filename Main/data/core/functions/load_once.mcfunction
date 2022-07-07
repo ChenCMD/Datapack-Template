@@ -94,7 +94,7 @@ summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
     # @public
         scoreboard objectives add Lib dummy {"text":"ライブラリの引数/返り値用"}
 
-    #> Library用スコアボード - PrivateUse
+    #> API用スコアボード - Private
     # @within * api:**
         scoreboard objectives add ScoreToHPFluc dummy
 
