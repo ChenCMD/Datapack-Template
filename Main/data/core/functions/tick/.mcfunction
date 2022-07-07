@@ -4,6 +4,9 @@
 #
 # @within tag/function minecraft:tick
 
+# 事前処理
+    execute as @a at @s run function core:tick/pre-tick-proc_player
+
 # プレイヤー処理部
     execute as @a at @s run function core:tick/player
 
